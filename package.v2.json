@@ -100,7 +100,7 @@
             "v2.0": "适配MoviePilot V2 版本，采用链式事件机制"
         }
     },
-    "TorrentTransfer": {
+    "TorrentTransfer1": {
         "name": "自动转移做种",
         "description": "定期转移下载器中的做种任务到另一个下载器。",
         "labels": "做种",
