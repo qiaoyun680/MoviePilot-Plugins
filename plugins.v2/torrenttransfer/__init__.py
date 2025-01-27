@@ -656,7 +656,7 @@ class TorrentTransfer(_PluginBase):
             if self._includecategory:
                 # 排除未标记的分类
                 if torrent_category not in self._includecategory.split(','):
-                    logger.info(f"种子 {hash_str} 不含有转移分类 {self._includecategory}，跳过 ...")
+                    logger.info(f"种子 {hash_str} 分类为 {torrent_category} 不含有转移分类 {self._includecategory}，跳过 ...")
                     continue
             # 根据设置决定是否转移无标签的种子
             if is_torrent_labels_empty:
