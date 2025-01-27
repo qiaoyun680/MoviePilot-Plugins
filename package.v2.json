@@ -104,9 +104,9 @@
         "name": "自动转移做种",
         "description": "定期转移下载器中的做种任务到另一个下载器。",
         "labels": "做种",
-        "version": "1.9",
+        "version": "1.9.1",
         "icon": "seed.png",
-        "author": "jxxghp",
+        "author": "680",
         "level": 2,
         "history": {
             "v1.9": "优化执行周期输入，需要MoviePilot v2.2.1+",
