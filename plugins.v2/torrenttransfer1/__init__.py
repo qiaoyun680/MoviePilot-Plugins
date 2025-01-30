@@ -685,12 +685,13 @@ class TorrentTransfer(_PluginBase):
                         continue
 
             # 添加转移数据
+            logger.info(f"种子 {hash_str} 添加转移数据 save_path{save_path}， torrent {torrent}...")
             trans_torrents.append({
                 "hash": hash_str,
                 "save_path": save_path,
                 "torrent": torrent
             })
-
+        logger.info(f"trans_torrents:{trans_torrents}")
         # 开始转移任务
         if trans_torrents:
             logger.info(f"需要转移的种子数：{len(trans_torrents)}")
