@@ -32,9 +32,9 @@ class TorrentTransfer(_PluginBase):
     # 插件作者
     plugin_author = "680"
     # 作者主页
-    author_url = "https://github.com/jxxghp"
+    author_url = "https://github.com/jxxghSSp"
     # 插件配置项ID前缀
-    plugin_config_prefix = "torrenttransfer_"
+    plugin_config_prefix = "torrenttransfer1_"
     # 加载顺序
     plugin_order = 18
     # 可使用的用户级别
